@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.offers {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #000000, #e74c3c);
+    color: #fff;
+}
+
+nav.nav-bar {
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 13px 0px;
+}
+
+.nav-bar ul li a {
+    color: #fff;
+    margin: 0px 17px;
+    font-size: small;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 30%;
+    border: none;
+    font-size: larger;
+    outline: none;
+}
+
+.search-icon {
+    padding: 2px;
+}
+
+.hero {
+    background-image: url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 6% 10%;
+}
+
+header {
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    width: 70%;
+    padding: 20px;
+}
+
+header>h1 {
+    font-size: 28px;
+}
+
+header>p {
+    font-size: 19px;
+}
+
+/*  section-1 styling  */
+.section-1 {
+    padding: 1% 5%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.s1-container {
+    margin: 10px 0px;
+    padding: 1%;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.s1-container div {
+    display: inline-block;
+    height: 150px;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 0.1%;
+}
+
+/* scetion-2 styling  */
+.section-2 {
+    background: linear-gradient(to left, #000000, #434343);
+    height: 100vh;
+    border: 2px solid #000;
+}
+
+.s2-container {
+    background-color: greenyellow;
+    width: 85%;
+    height: 75%;
+    padding: 2%;
+    margin: auto;
+    margin-top: 7.5%;
+    box-shadow: 0px 0px 10px gray;
+    background: linear-gradient(to right, #000000, #e74c3c);
+    color: #fff;
+    position: relative;
+}
+
+.content {
+    width: 40%;
+}
+
+.content h1 {
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 20px;
+}
+
+.s2-container img {
+    position: absolute;
+    border-radius: 50%;
+    right: 3%;
+    top: 8%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 8px 8px 8px white;
+}
+
+.s2-container img:hover {
+    right: 8%;
+    top: 15%;
+    width: 400px;
+    height: 400px;
+}
